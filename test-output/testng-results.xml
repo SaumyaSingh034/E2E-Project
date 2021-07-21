@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70241" started-at="2021-02-28T14:42:51Z" finished-at="2021-02-28T14:44:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20" started-at="2021-02-28T14:42:51Z" finished-at="2021-02-28T14:42:51Z">
+    </test> <!-- Test -->
+    <test name="BasicDemo" duration-ms="57004" started-at="2021-02-28T14:42:51Z" finished-at="2021-02-28T14:43:48Z">
+      <class name="PracticeDemo.BasicPageDemo">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:PracticeDemo.BasicPageDemo@2cd2a21f]" name="initalize" is-config="true" duration-ms="3990" started-at="2021-02-28T20:12:51Z" finished-at="2021-02-28T20:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method status="PASS" signature="calling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PracticeDemo.BasicPageDemo@2cd2a21f]" name="calling" duration-ms="38562" started-at="2021-02-28T20:12:55Z" data-provider="getData" finished-at="2021-02-28T20:13:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[singhsaumyait034@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saumya299]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saumya Singh - Programmer Analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calling -->
+        <test-method status="PASS" signature="calling(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PracticeDemo.BasicPageDemo@2cd2a21f]" name="calling" duration-ms="13071" started-at="2021-02-28T20:13:34Z" data-provider="getData" finished-at="2021-02-28T20:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snehalParkhe@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SnehalParkhe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Snehal parkhe - Senior Associate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calling -->
+        <test-method status="PASS" signature="close()[pri:0, instance:PracticeDemo.BasicPageDemo@2cd2a21f]" name="close" is-config="true" duration-ms="1369" started-at="2021-02-28T20:13:47Z" finished-at="2021-02-28T20:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- PracticeDemo.BasicPageDemo -->
+    </test> <!-- BasicDemo -->
+    <test name="Validation" duration-ms="13178" started-at="2021-02-28T14:43:48Z" finished-at="2021-02-28T14:44:01Z">
+      <class name="PracticeDemo.validateTest">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:PracticeDemo.validateTest@29e495ff]" name="initalize" is-config="true" duration-ms="12580" started-at="2021-02-28T20:13:48Z" finished-at="2021-02-28T20:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method status="PASS" signature="calling()[pri:0, instance:PracticeDemo.validateTest@29e495ff]" name="calling" duration-ms="280" started-at="2021-02-28T20:14:01Z" finished-at="2021-02-28T20:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calling -->
+        <test-method status="PASS" signature="close()[pri:0, instance:PracticeDemo.validateTest@29e495ff]" name="close" is-config="true" duration-ms="316" started-at="2021-02-28T20:14:01Z" finished-at="2021-02-28T20:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- PracticeDemo.validateTest -->
+    </test> <!-- Validation -->
+  </suite> <!-- Suite -->
+</testng-results>
